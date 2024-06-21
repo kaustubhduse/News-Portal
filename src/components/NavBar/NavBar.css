@@ -1,0 +1,27 @@
+.light-blue-navbar {
+  background-color: #f8f9fa; 
+}
+
+.enlarge-on-hover {
+  transition: transform 0.3s ease;
+}
+
+.enlarge-on-hover:hover {
+  transform: scale(1.2);
+}
+
+
+
+.navbar-nav .nav-link,
+.navbar-nav .nav-item .dropdown-toggle {
+  font-size: 1.25rem;
+  padding: 4px 15px; 
+}
+
+.navbar-nav .dropdown-menu {
+  font-size: 1.25rem; 
+}
+
+.navbar-nav .dropdown-item {
+  padding: 10px 15px; 
+}

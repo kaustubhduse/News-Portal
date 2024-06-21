@@ -1,0 +1,36 @@
+.card-hover:hover {
+  position: relative;
+  background-color: #f0f0f0; /* Light grey background color on hover */
+}
+
+
+.btn-dark:hover {
+  transform: scale(1.2); 
+  transition: transform 0.2s ease; 
+}
+
+
+.favorite-tooltip {
+  
+  transition: opacity 0.2s ease-in-out;
+}
+
+.favorite-button-container:hover .favorite-tooltip {
+  opacity: 1;
+}
+
+.card-title mark,
+.card-text mark {
+  background-color: yellow;
+  padding: 0.2em;
+}
+
+.card-img-top {
+  object-fit: cover; 
+  height: 200px; 
+}
+
+.video-img {
+  object-fit: cover; 
+  height: 200px; 
+}

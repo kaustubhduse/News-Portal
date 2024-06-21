@@ -1,0 +1,48 @@
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.favorite-button-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  margin: 10px;
+}
+
+.favorite-tooltip {
+  position: absolute;
+  bottom: 40px;
+  right: 50%;
+  transform: translateX(50%);
+  background-color: rgba(240, 46, 46, 0.8);
+  color: white;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 14px;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.2s ease-in-out;
+}
+
+.favorite-button-container:hover .favorite-tooltip {
+  opacity: 1;
+}
+
+.card-title mark,
+.card-text mark {
+  background-color: yellow;
+  padding: 0.2em;
+}
+
+.card-img-top {
+  object-fit: cover; 
+  height: 200px; 
+}
+
+.video-img {
+  object-fit: cover; 
+  height: 200px; 
+}

@@ -1,0 +1,31 @@
+.text-animate {
+  display: inline-block;
+  opacity: 0;
+  animation: bounceIn 0.5s forwards 1s; /* Reduce animation duration to 0.5s and delay to 1s */
+  min-width: 10px;
+}
+
+.text-animate-hover {
+  min-width: 10px;
+  display: inline-block;
+}
+
+.text-animate-hover:hover {
+  animation: rubberBand 1s both; /* Keep hover animation as it is */
+  color: #ffd700;
+}
+
+/* Generate animation delays for each .text-animate._# class */
+.text-animate._1 {
+  animation-delay: 0.1s;
+}
+
+.text-animate._2 {
+  animation-delay: 0.2s;
+}
+
+/* Add animation delays for all .text-animate._# classes up to 35 */
+/* ... */
+.text-animate._35 {
+  animation-delay: 3.5s;
+}
